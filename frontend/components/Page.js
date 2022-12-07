@@ -1,5 +1,15 @@
-export default function Page() {
-    return <div>
-        <h2>Imm the page component</h2>
-    </div>
+import Header from "./Header";
+import PropTypes from 'prop-types';
+
+export default function Page({ children }) {
+    return (
+        <div>
+            <Header />
+            {children}
+        </div>
+    );
 }
+
+Page.propTypes = {
+    children: PropTypes.string,
+};
