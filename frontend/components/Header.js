@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Nav from './Nav';
 
 const Logo = styled.h1 `
-    background: green;
+    background: var(--green, 30 215 96);
     margin-left: 2rem;
     font-size: 2rem;
     position: relative;

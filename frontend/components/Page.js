@@ -16,6 +16,7 @@ const GlobalStyles = createGlobalStyle`
         --black: #393939;
         --gray: #3a3a3a;
         --light-Gray: #e1e1e1;
+        --green: #1DB954;
         --offWhite: #ededed;
         --maxWidth: 1000px;
         --bs: 0 12px 24px 0 rgba(0,0,0,0.99);
@@ -61,5 +62,5 @@ export default function Page({ children }) {
 }
 
 Page.propTypes = {
-    children: PropTypes.string,
+    children: PropTypes.any,
 };
